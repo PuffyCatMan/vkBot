@@ -1,0 +1,10 @@
+services:
+  vkbot:
+    build: .
+    environment:
+      CLUB_ID:
+      SLEEP_TIME:
+      VKAPP_ID:
+      LINK_TO_TOKEN:
+      TOKEN:
+    command: python main.py

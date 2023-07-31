@@ -1,0 +1,21 @@
+> POST /oauth/token HTTP/1.1
+> Host: connect.mail.ru
+> Content-Type: application/x-www-form-urlencoded
+> 
+> grant_type=refresh_token&client_id=31337&client_secret=deadbeef&refresh_token=8xLOxBtZp8
+
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+<
+< {
+<    "access_token":"Uu8oor1i",
+<    "token_type":"bearer",
+<    "expires_in":86400,
+<    "refresh_token":"ohWo1ohr",
+< }
+
+https://oauth.vk.com/authorize?client_id=51701969&display=page&scope=groups&response_type=token&v=5.131&state=itswork
+https://oauth.vk.com/authorize?client_id=51701969&display=page&scope=friends&response_type=token&v=5.92&state=123456
+params {'client_id': '51701969', 'display': 'page', 'scope': 'manage', 'response_type': 'token', 'v': '5.131', 'state': 'itswork'}
+
+
